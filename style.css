@@ -56,10 +56,11 @@ h3 {
     position: fixed;
     width: 100%;
     margin: 0 0 30px;
-    overflow: auto;
+    overflow: hidden;
     color: #66ff33;
     background: #2eb8b8;
     border-bottom: 8px solid #66ff33;
+    z-index: 2;
 }
 
 #nameArt {
@@ -91,7 +92,7 @@ nav a {
     border-left: 1px solid #66ff33;
 }
 
-nav a:first-child {
+nav a: first-child {
     border-left: 0 none;
 }
 
@@ -146,7 +147,7 @@ h3, .sidebar h2 {
     overflow: auto;
 }
 
-.work:nth-child(even) {
+.work: nth-child(even) {
     margin-right: 40px;
 }
 
@@ -176,6 +177,7 @@ h3, .sidebar h2 {
     height: auto;
     margin-top: 10px;
     margin-right: 25px;
+    z-index: 1;
 }
 
 
